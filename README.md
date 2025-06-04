@@ -10,14 +10,15 @@
 3. LED 作為狀態指示（開蓋：LED 閃爍；關蓋：LED 長亮）。  
 
 整個系統以 **STM32CubeMX + HAL** 驅動程式開發，並示範如何使用定時器（TIM）產生 PWM、GPIO + EXTI 處理 Echo 中斷。專案範例預設以 **STM32Fz429i** 為開發板，但您可以輕鬆地移植到其他 STM32F4/STM32F1 系列 MCU。
-##大致流程
-
-## 電路接線示意
+## 大致流程
+![流程圖](flow.jpg)
+## 電路接線示意&成品
 
 以下圖片示意了 HC-SR04、SG90 與 NUCLEO-F401RE 之間的連接方式：  
 
-![硬體接線圖](README_IMAGES/wiring_diagram.png)
-![整體](相對路徑或絕對 URL)
+![硬體接線圖](circuit.jpg)
+
+![硬體接線圖](program.jpg)
 ---
 
 ## 目錄
